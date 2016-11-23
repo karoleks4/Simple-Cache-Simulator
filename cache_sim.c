@@ -28,7 +28,7 @@ typedef struct {
     block_t *block_array;
 } cache_t; 
 
-// DECLARE CACHES AND COUNTERS FOR THE STATS HERE
+// DECLARE CACHES AND COUNTERS FOR THE STATS
 
 
 uint32_t cache_size; 
@@ -53,7 +53,7 @@ int d_hit_counter = 0;
 
 
 /* Reads a memory access from the trace file and returns
- * 1) access type (instruction or data access
+ * 1) access type (instruction or data access)
  * 2) memory address
  */
 mem_access_t read_transaction(FILE *ptr_file) {
@@ -275,7 +275,6 @@ void main(int argc, char** argv) {
             break;
 
 	   /* Do a cache access */
-	   // ADD YOUR CODE HERE
 
         else if (cache_mapping == dm) {
             if (cache_org == uc) {
@@ -307,7 +306,6 @@ void main(int argc, char** argv) {
     }
 
     /* Print the statistics */
-    // ADD YOUR CODE HERE
 
     if (cache_org == uc) {
         printf("U.accesses: %d\n", cache_counter);
