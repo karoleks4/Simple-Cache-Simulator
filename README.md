@@ -8,4 +8,4 @@ Program considers:
 
 Program outputs the statistics (hits, hit rates) using the data from the "mem_trace.txt" file. 
 
-For more info look at Description.pdf (the description does not match the program fully since I took this course during the previous academic year).
+More info in "Description.pdf" file (the description does not match the program fully since I took this course during the previous academic year).
