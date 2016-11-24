@@ -9,3 +9,5 @@ Program considers:
 Program outputs the statistics (hits, hit rates) using the data from the "mem_trace.txt" file. 
 
 More info in "Description.pdf" file (the description does not match the program fully since I took this course during the previous academic year).
+
+This code was generated for Assignment 2 for Informatics 2C course (Introduction to Computer Systems) at the University of Edinburgh.
